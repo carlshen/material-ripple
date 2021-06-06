@@ -2,9 +2,10 @@ package com.balysv.materialripple.demo;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.support.v7.app.ActionBarActivity;
-import android.support.v7.widget.LinearLayoutManager;
-import android.support.v7.widget.RecyclerView;
+
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.recyclerview.widget.LinearLayoutManager;
+import androidx.recyclerview.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.Menu;
 import android.view.MenuItem;
@@ -17,7 +18,7 @@ import com.balysv.materialripple.MaterialRippleLayout;
 
 import java.util.UUID;
 
-public class DemoRecyclerActivity extends ActionBarActivity {
+public class DemoRecyclerActivity extends AppCompatActivity {
 
     private final static String[] data;
 

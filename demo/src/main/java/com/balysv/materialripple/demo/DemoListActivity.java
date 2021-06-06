@@ -2,7 +2,8 @@ package com.balysv.materialripple.demo;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.support.v7.app.ActionBarActivity;
+import androidx.appcompat.app.AppCompatActivity;
+
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
@@ -13,7 +14,7 @@ import android.widget.Toast;
 
 import java.util.UUID;
 
-public class DemoListActivity extends ActionBarActivity implements AdapterView.OnItemClickListener {
+public class DemoListActivity extends AppCompatActivity implements AdapterView.OnItemClickListener {
 
     private final static String[] data;
 

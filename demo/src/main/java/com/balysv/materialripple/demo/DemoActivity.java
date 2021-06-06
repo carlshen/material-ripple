@@ -3,7 +3,8 @@ package com.balysv.materialripple.demo;
 import android.content.Intent;
 import android.graphics.Color;
 import android.os.Bundle;
-import android.support.v7.app.ActionBarActivity;
+import androidx.appcompat.app.AppCompatActivity;
+
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
@@ -12,7 +13,7 @@ import android.widget.Toast;
 import com.balysv.materialripple.MaterialRippleLayout;
 
 
-public class DemoActivity extends ActionBarActivity implements View.OnClickListener, View.OnLongClickListener {
+public class DemoActivity extends AppCompatActivity implements View.OnClickListener, View.OnLongClickListener {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
